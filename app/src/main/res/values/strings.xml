@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simple Contact List in Jetpack Compose</string>
+    <string name="title_activity_card_contact">CardContact</string>
+</resources>

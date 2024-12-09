@@ -1,6 +1,7 @@
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -22,13 +23,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.example.simplecontactlistinjetpackcompose.Contact
+import com.example.simplecontactlistinjetpackcompose.ui.theme.model.Contact
 
 @Composable
-fun CardContact(contact: Contact) {
+fun CardContact(contact: Contact, onClick: () -> Unit) {
     Row(
         modifier = Modifier
             .padding(16.dp)
@@ -36,7 +38,9 @@ fun CardContact(contact: Contact) {
             .height(100.dp)
             .clip(RoundedCornerShape(16.dp))
             .border(BorderStroke(2.dp, Color.Gray),shape = RoundedCornerShape(16.dp))
-            .padding(10.dp)
+            .padding(10.dp).pointerInput(Unit) {
+                detectTapGestures(onTap = { onClick() })
+            }
     ) {
         Box(
             modifier = Modifier
@@ -96,3 +100,7 @@ fun CardContact(contact: Contact) {
 
     }
 }
+
+
+
+

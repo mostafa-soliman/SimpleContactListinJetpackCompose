@@ -43,10 +43,3 @@ This is a simple Android application created using Jetpack Compose. The project 
 
 ---
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/SimpleContactListInJetpackCompose.git
-   cd SimpleContactListInJetpackCompose
-   ```

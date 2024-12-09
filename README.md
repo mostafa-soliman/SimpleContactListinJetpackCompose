@@ -33,13 +33,13 @@ This is a simple Android application created using Jetpack Compose. The project 
 
 ## Screenshots
 
-### Contact List Screen
+#### Contact List Screen
 
-![Contact List Screen](screenshots/contact_list_screen.jpeg)
+<img src="screenshots/contact_list_screen.jpeg" alt="Contact List Screen" width="50" height="100"/>
 
-### Contact Details Dialog
+#### Contact Details Dialog
 
-![Contact Details Dialog](screenshots/contact_details_dialog.jpeg)
+<img src="screenshots/contact_details_dialog.jpeg" alt="Contact Details Dialog" width="50" height="100"/>
 
 ---
 

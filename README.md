@@ -35,11 +35,11 @@ This is a simple Android application created using Jetpack Compose. The project 
 
 ### Contact List Screen
 
-![Contact List Screen](drawable/contact_list_screen.jpeg)
+![Contact List Screen](screenshots/contact_list_screen.jpeg)
 
 ### Contact Details Dialog
 
-![Contact Details Dialog](drawable/contact_details_dialog.jpeg)
+![Contact Details Dialog](screenshots/contact_details_dialog.jpeg)
 
 ---
 
